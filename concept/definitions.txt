@@ -1,0 +1,8 @@
+.-Anaconda -> Distribución que incluye no sólo el intérprete de python sino también herramientas para el análisis de datos y un gestor de paquetes que permite crear entornos de desarrollo aislados, en los que defines la version de python que va a usar el intérprete y los paquetes pip del entorno.Este útlimo software se llama conda.
+
+-- Creación de un entorno de conda
+conda create -n <nuevo_entorno> python=<version>
+-- Abrir un entorno de conda
+conda activate <entorno>
+-- Cerrar un entorno de conda
+conda deactivate
